@@ -4,19 +4,10 @@
     $hushpass = password_hash($password, PASSWORD_DEFAULT);
     echo "PASSWORD 1 HUSH: " . $hushpass;
 
-    echo ""
+    echo $hashpass;
 
 
 
+?>
 
 
-
-
-
-
-?
-
->
-
-
-.site-main clr page-header
