@@ -8,11 +8,13 @@
         echo $e->getMessage();
     }
 
-    function processCC($numb = null, $zipCode = null){
+    function processCC($numb = 12, $zipCode = null){
         if(is_null($numb)){
             throw new Exception('No CC Numbers');
         }
-        echo "Process";
+        else{
+            echo "No Error";
+        }
     }
 
 ?>
